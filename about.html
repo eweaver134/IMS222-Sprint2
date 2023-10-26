@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+
+    <!-- Initialize Materialize components -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Zen+Dots&display=swap" rel="stylesheet">
+
+    <style>
+        /* Navigation */
+        .brand-logo img {
+            max-height: 3.5rem;
+            margin: 6px;
+        }
+
+        .image-and-text {
+            text-align: center;
+        }
+
+        .footer-links {
+            text-align: left;
+            margin-left: 230px;
+            margin-top: 30px;
+        }
+
+        h2 {
+            font-family: 'Zen Dots', sans-serif;
+        }
+
+        p {
+            font-family: 'Comme';
+        }
+
+        h4 {
+            font-family: 'Martian Mono';
+        }
+
+    </style>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+        });
+
+    </script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper black">
+            <a href="index.html" class="brand-logo"><img src="images/logo.png" alt="logo"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="info.html">Information</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="faq.html">Frequently Asked Questions</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="info.html">Information</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="faq.html">Frequently Asked Questions</a></li>
+    </ul>
+
+    <!-- About Us Page Content -->
+    <div class="container">
+        <h2 style="font-size: 40px">Meet The Team!</h2>
+        <p style="font-size: 30px; text-align: center"> Here at Apple, The Fruit, we only hire highly qualified individuals. We've hired top-notch engineers, designers, and programmers in order to provide our clients with the best experience. Our team is what sets us apart. </p>
+        <div id="sophia">
+            <div class="row">
+                <nav class="line">
+                    <div class="nav-wrapper black">
+                        <div class="container">
+                            <h3 style="text-align: center">Sophia Canino</h3>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <h4 style="text-align:center; font-style: italic ">CEO</h4>
+                <p style="font-size: 20px; text-align: center"> Sophia is from Loveland, Ohio, where she first fell in love with the field of robotics. Throughout her high school career, she took many courses on robotics, engineering, and business, going on to work for several robotics companies after graduating. After working in the field for a couple of years, she embarked on a new journey and created this company for robotics consulting.</p>
+            </div>
+        </div>
+
+        <div id="kylee">
+            <div class="row">
+                <nav class="line">
+                    <div class="nav-wrapper black">
+                        <div class="container">
+                            <h3 style="text-align: center">Kylee Phillips</h3>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <h4 style="text-align:center; font-style: italic">Robotics Designer</h4>
+                <p style="font-size: 20px; text-align: center">Kylee is from Plain City, Ohio. In high school, she started creating and designing robots, which sparked the beginning of her career. She has years of experience in 3D design, engineering, and robotics design. Her primary area of expertise is giving robots unique personalities.</p>
+            </div>
+        </div>
+
+        <div id="leo">
+            <div class="row">
+                <nav class="line">
+                    <div class="nav-wrapper black">
+                        <div class="container">
+                            <h3 style="text-align: center">Leo Nicholson</h3>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <h4 style="text-align:center; font-style: italic ">Chief of Marketing</h4>
+                <p style="font-size: 20px; text-align: center">Leo is from Dayton Ohio and graduated from Northmont High School where he first learned of his passion for marketing. As the Chief of Marketing, Leo is responsible for creating and accelerating the company’s marketing strategy and brand recognition. Previously Leo has worked as the Chief Marketing Officer of similar companies such as Intel and Cvent.</p>
+            </div>
+        </div>
+
+        <div id="ethan">
+            <div class="row">
+                <nav class="line">
+                    <div class="nav-wrapper black">
+                        <div class="container">
+                            <h3 style="text-align: center">Ethan Weaver</h3>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <h4 style="text-align:center; font-style: italic ">Electrical Engineer</h4>
+                <p style="font-size: 20px; text-align: center">Ethan is from Madison Ohio. It was at Madison High School that Ethan first discovered his passion for engineering. He has since been dedicated to his projects, primarily in robotics. After bouncing between different companies, Ethan found himself in our company. Ethan discovered a new passion for consulting while utilizing his electrical engineering expertise.</p>
+            </div>
+        </div>
+
+
+        <div id="cody">
+            <div class="row">
+                <nav class="line">
+                    <div class="nav-wrapper black">
+                        <div class="container">
+                            <h3 style="text-align: center">Cody Addington</h3>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <h4 style="text-align:center; font-style: italic ">Software Engineer</h4>
+                <p style="font-size: 20px; text-align: center">Cody is from Logan, Ohio. In high school, he had an interest in making small apps and games, helping to push him to make the jump to making bigger and better Software. His main specialties are making innovative new software that helps to push the boundaries of what can be done with robots. He has worked for years on making better software with companies like Minicahsoft, or Sunby.</p>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+
+    <footer class="page-footer black darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <div class="image-and-text">
+                        <img src="images/logo.png" alt="Logo Image" width="200" height=auto style="padding-left: 10px; padding-right: 10px; padding-bottom: 20px; padding-top: 20px;"> <br>
+                        <h2>Apple, The Fruit</h2>
+                    </div>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text, footer-links">Links</h5>
+                    <ul class="footer-links">
+                        <li> <i class="small material-icons">contact_mail</i> <a class="grey-text text-lighten-3" href="#!"> Contact Us</a></li><br />
+                        <li> <i class="small material-icons">local_phone</i><a class="grey-text text-lighten-3" href="#!"> 999-999-9999</a></li><br />
+                        <li><i class="small material-icons">headset_mic</i><a class="grey-text text-lighten-3" href="#!"> Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2023 Copyright Apple, The Fruit, All Rights Reserved
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

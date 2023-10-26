@@ -1,0 +1,35 @@
+/* Footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.contact-icons i {
+    color: black !important;
+}
+
+
+.footer-icons i {
+    color: #00FF00;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 30px;
+    font-weight: normal;
+    font-family: 'Zen Dots', sans-serif;
+}
+
+.footer-copyright {
+    color: white !important;
+}
+
+.material-icons {
+    color: #00FF00;
+}
+
+.material-icons.active {
+    color: #00FF00;
+}
