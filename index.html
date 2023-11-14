@@ -49,7 +49,7 @@
             font-size: 6em;
         }
 
-        .introPara {
+        .paraContent {
             font-size: 2em;
         }
 
@@ -89,8 +89,6 @@
         }
 
         .footer-links {
-            text-align: left;
-            margin-left: 230px;
             margin-top: 30px;
         }
 
@@ -104,7 +102,7 @@
                 font-size: 2em;
             }
 
-            .introPara {
+            .paraContent {
                 font-size: 1.5em;
             }
 
@@ -120,6 +118,7 @@
             <a href="index.html" class="brand-logo"><img src="images/logo.png" alt="logo"></a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
                 <li><a href="info.html">Information</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -129,6 +128,7 @@
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
         <li><a href="info.html">Information</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="contact.html">Contact Us</a></li>
@@ -171,7 +171,7 @@
         </div>
         <div class="row">
             <div class="col s12">
-                <p class="introPara">Welcome to the official Apple The Fruit website! Here we will help you to understand
+                <p>Welcome to the official Apple The Fruit website! Here we will help you to understand
                     the innovations of robotics in modern society. If you're interested in learning more about
                     what we do, please go <a href="info.html">here</a>. Our team strives to help people
                     that are new to the field understand what it means to integrate robotics into their companies.
@@ -195,7 +195,7 @@
                         <span class="card-title">Benefits</span>
                     </div>
                     <div class="card-content">
-                        <p>“Integrating these robots into manufacturing processes increases productivity, reduces costs, and enhances safety. Using robotics also helps manufacturers improve the quality of their products and meet customer demands more efficiently.”
+                        <p class="paraContent">“Integrating these robots into manufacturing processes increases productivity, reduces costs, and enhances safety. Using robotics also helps manufacturers improve the quality of their products and meet customer demands more efficiently.”
                         </p>
                     </div>
                     <div class="card-action">
@@ -258,25 +258,27 @@
     <footer class="page-footer black darken-3">
         <div class="container">
             <div class="row">
-                <div class="col l6 s12">
-                    <div class="image-and-text">
+                <div class="col l8 s12">
+                    <div class="image-and-text center">
                         <img src="images/logo.png" alt="Logo Image" width="200" height=auto style="padding-left: 10px; padding-right: 10px; padding-bottom: 20px; padding-top: 20px;"> <br>
                         <h2>Apple, The Fruit</h2>
                     </div>
                 </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text, footer-links">Links</h5>
-                    <ul class="footer-links">
-                        <li> <i class="small material-icons">contact_mail</i> <a class="grey-text text-lighten-3" href="#!"> Contact Us</a></li><br />
-                        <li> <i class="small material-icons">local_phone</i><a class="grey-text text-lighten-3" href="#!"> 999-999-9999</a></li><br />
-                        <li><i class="small material-icons">headset_mic</i><a class="grey-text text-lighten-3" href="#!"> Support</a></li>
+                <div class="col l4 s12">
+                    <h5 class="white-text, footer-links center">Links</h5>
+                    <ul class="footer-links center">
+                        <li class="center" class="center" class="center"> <i class="small material-icons">contact_mail</i> <a class="grey-text text-lighten-3" href="#!"> Contact Us</a></li><br />
+                        <li class="center" class="center"> <i class="small material-icons">local_phone</i><a class="grey-text text-lighten-3" href="#!"> 999-999-9999</a></li><br />
+                        <li class="center"><i class="small material-icons">headset_mic</i><a class="grey-text text-lighten-3" href="#!"> Support</a></li>
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2023 Copyright Apple, The Fruit, All Rights Reserved
+            <div class="row">
+                <div class="footer-copyright center">
+                    <div class="container">
+                        © 2023 Copyright Apple, The Fruit, All Rights Reserved
+                    </div>
+                </div>
             </div>
         </div>
     </footer>

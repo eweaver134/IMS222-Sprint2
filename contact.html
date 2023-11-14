@@ -27,7 +27,6 @@
         $(document).ready(function() {
             $('.sidenav').sidenav();
         });
-
     </script>
 
     <style>
@@ -101,8 +100,14 @@
             max-height: 3.5rem;
             margin: 6px;
         }
-        
-        /* Footer */
+
+        /*Navigation*/
+        .brand-logo img {
+            max-height: 3.5rem;
+            margin: 6px;
+        }
+
+        /*Footer*/
         body {
             display: flex;
             min-height: 100vh;
@@ -138,8 +143,6 @@
         }
 
         .footer-links {
-            text-align: left;
-            margin-left: 230px;
             margin-top: 30px;
         }
     </style>
@@ -154,6 +157,7 @@
             <a href="index.html" class="brand-logo"><img src="images/logo.png" alt="logo"></a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
                 <li><a href="info.html">Information</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -163,6 +167,7 @@
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
         <li><a href="info.html">Information</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="contact.html">Contact Us</a></li>
@@ -180,10 +185,12 @@
         <form action="https://formsubmit.co/leonicholson2022@gmail.com" method="POST" class="col s12">
             <div class="row">
                 <div class="input-field col l6 s12">
+                    <i class="material-icons prefix" style="color: black;">edit</i>
                     <input id="first_name" type="text" class="validate">
                     <label for="first_name">First Name</label>
                 </div>
                 <div class="input-field col l6 s12">
+                    <i class="material-icons prefix" style="color: black;">edit</i>
                     <input id="last_name" type="text" class="validate">
                     <label for="last_name">Last Name</label>
                 </div>
@@ -213,45 +220,53 @@
         </form>
     </div>
 
+    <!-- Location section -->
+    <div class="container" style="margin-top: 30px;">
+        <div class="row">
+            <h2 class="section-header" style="margin-bottom: 5px;">Location</h2>
+        </div>
+    </div>
 
     <div class="location-container">
         <div class="location-text">
-            <p>Our office is located at the following address:</p>
-            <address>
-                551 E High St, Oxford, OH 45056
-            </address>
+            <p style="margin-top: 0;">Our office is located at the following address: <span style="color: gray;">551 E High St, Oxford, OH 45056</span></p>
         </div>
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.212189435922!2d-84.7331787!3d39.5097004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88403d0af59465c7%3A0xff423fec6675f5a8!2sLaws%20Hall%2C%20551%20E%20High%20St%2C%20Oxford%2C%20OH%2045056!5e0!3m2!1sen!2sus!4v1698178015178!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+    </div>
+
+    <div class="map" style="margin-bottom: 50px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.212189435922!2d-84.7331787!3d39.5097004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88403d0af59465c7%3A0xff423fec6675f5a8!2sLaws%20Hall%2C%20551%20E%20High%20St%2C%20Oxford%2C%20OH%2045056!5e0!3m2!1sen!2sus!4v1698178015178!5m2!1sen!2sus" style="border:0; height: 500px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
 
 
-    <!-- footer -->
 
+
+
+    <!-- Footer -->
     <footer class="page-footer black darken-3">
         <div class="container">
             <div class="row">
-                <div class="col l6 s12">
-                    <div class="image-and-text">
+                <div class="col l8 s12">
+                    <div class="image-and-text center">
                         <img src="images/logo.png" alt="Logo Image" width="200" height=auto style="padding-left: 10px; padding-right: 10px; padding-bottom: 20px; padding-top: 20px;"> <br>
                         <h2>Apple, The Fruit</h2>
                     </div>
                 </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text, footer-links">Links</h5>
-                    <ul class="footer-links">
-                        <li> <i class="small material-icons">contact_mail</i> <a class="grey-text text-lighten-3" href="#!"> Contact Us</a></li><br />
-                        <li> <i class="small material-icons">local_phone</i><a class="grey-text text-lighten-3" href="#!"> 999-999-9999</a></li><br />
-                        <li><i class="small material-icons">headset_mic</i><a class="grey-text text-lighten-3" href="#!"> Support</a></li>
+                <div class="col l4 s12">
+                    <h5 class="white-text, footer-links center">Links</h5>
+                    <ul class="footer-links center">
+                        <li class="center" class="center" class="center"> <i class="small material-icons">contact_mail</i> <a class="grey-text text-lighten-3" href="#!"> Contact Us</a></li><br />
+                        <li class="center" class="center"> <i class="small material-icons">local_phone</i><a class="grey-text text-lighten-3" href="#!"> 999-999-9999</a></li><br />
+                        <li class="center"><i class="small material-icons">headset_mic</i><a class="grey-text text-lighten-3" href="#!"> Support</a></li>
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2023 Copyright Apple, The Fruit, All Rights Reserved
+            <div class="row">
+                <div class="footer-copyright center">
+                    <div class="container">
+                        © 2023 Copyright Apple, The Fruit, All Rights Reserved
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
@@ -260,6 +275,4 @@
 
 
     <script type="text/javascript" src="js/materialize.min.js"></script>
-</body>
-
-</html>
+</body></html>
